@@ -1,0 +1,92 @@
+// Reset CSS
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+// Variables
+
+$cerise-color: #e30b5d
+$apple-color: #4caf50
+$ocean-color: #2196f3
+
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap')
+
+body
+  font-family: 'Roboto', sans-serif
+  font-size: 16px
+  color: #333
+  background-color: #f5f5f5
+  
+
+// Header
+
+nav
+    background-color: #fff
+    padding: 1em
+    position: fixed
+    width: 100%
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    ul
+        list-style: none
+        display: flex
+        justify-content: space-around
+        li
+            a
+                text-decoration: none
+                font-size: 1.2em
+                padding: 1em
+                border-radius: 5em
+                &:hover
+                    color: $ocean-color
+                    transition: all 0.3s ease-in-out
+
+
+// Sections
+.section_1, .section_2, .section_3
+    height: 400px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-size: cover
+    h1
+        color: #fff
+        font-size: 3em
+        text-align: center
+    p
+        color: #fff
+        font-size: 1.2em
+        text-align: center
+        margin-bottom: 1em
+
+// Section 1
+
+.section_1
+    background-image: url('/assets/img/liquid-cheese.svg')
+
+
+// Section 2
+
+.section_2
+    background-image: url('/assets/img/rainbow-vortex.svg')
+    h3
+        color: #fff
+        font-size: 2em
+        text-align: center
+        margin-bottom: 1em
+
+
+// Section 3
+
+.section_3
+    background-image: url('/assets/img/bullseye-gradient.svg')
+    h3
+        color: #fff
+        font-size: 2em
+        text-align: center
+        margin-bottom: 1em

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: #fff;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1em;
+  border-radius: 5em;
+}
+nav ul li a:hover {
+  color: #2196f3;
+  transition: all 0.3s ease-in-out;
+}
+
+.section_1, .section_2, .section_3 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.section_1 h1, .section_2 h1, .section_3 h1 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+.section_1 p, .section_2 p, .section_3 p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.section_1 {
+  background-image: url("/assets/img/liquid-cheese.svg");
+}
+
+.section_2 {
+  background-image: url("/assets/img/rainbow-vortex.svg");
+}
+.section_2 h3 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.section_3 {
+  background-image: url("/assets/img/bullseye-gradient.svg");
+}
+.section_3 h3 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
